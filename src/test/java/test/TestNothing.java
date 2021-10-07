@@ -18,7 +18,16 @@ public class TestNothing {
     @Test
     public void testTodo1DataFetching() {
         RequestSpecification request = given();
-        request.baseUri("https://jsonplaceholder.typicode.com");
+        String baseUri = "";
+        String baseUriEnvVar = System.getProperty("baseUri");
+        if(baseUriEnvVar != null ){
+            baseUri = baseUriEnvVar;
+        }
+
+        if(baseUri.isEmpty())
+            throw new RuntimeException("Please supploy the baseUri value");
+
+        request.baseUri(baseUri);
         request.basePath("/todos");
 
         final String FIRST_TODO = "/1";
