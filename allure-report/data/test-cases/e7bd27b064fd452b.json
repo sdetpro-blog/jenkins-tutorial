@@ -1,0 +1,71 @@
+{
+  "uid" : "e7bd27b064fd452b",
+  "name" : "testTodo1DataFetching",
+  "fullName" : "test.SimpleTest.testTodo1DataFetching",
+  "historyId" : "7102dbf57b177a136c8ac4e215ad6d02",
+  "time" : {
+    "start" : 1634085957178,
+    "stop" : 1634085966991,
+    "duration" : 9813
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTodo1DataFetching"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "TestNothing"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "host",
+    "value" : "Tus-MacBook-Pro.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "60261@Tus-MacBook-Pro.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4e1149e5dff43c37",
+      "status" : "broken",
+      "statusDetails" : "Please supploy the baseUri value",
+      "time" : {
+        "start" : 1634085834477,
+        "stop" : 1634085836399,
+        "duration" : 1922
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7bd27b064fd452b.json",
+  "parameterValues" : [ ]
+}

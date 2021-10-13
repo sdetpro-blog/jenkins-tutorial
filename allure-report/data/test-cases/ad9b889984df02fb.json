@@ -1,0 +1,60 @@
+{
+  "uid" : "ad9b889984df02fb",
+  "name" : "myFirstTest",
+  "fullName" : "test.SimpleTest.myFirstTest",
+  "historyId" : "39dfcb72dd77d69d300020ad13c4734",
+  "time" : {
+    "start" : 1634085834023,
+    "stop" : 1634085834084,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "myFirstTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "TestNothing"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.SimpleTest"
+  }, {
+    "name" : "host",
+    "value" : "Tus-MacBook-Pro.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "60105@Tus-MacBook-Pro.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad9b889984df02fb.json",
+  "parameterValues" : [ ]
+}

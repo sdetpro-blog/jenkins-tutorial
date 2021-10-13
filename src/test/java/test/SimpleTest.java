@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
-public class TestNothing {
+public class SimpleTest {
 
     @Test
     public void myFirstTest() {
@@ -25,7 +25,7 @@ public class TestNothing {
         }
 
         if(baseUri.isEmpty())
-            throw new RuntimeException("Please supploy the baseUri value");
+            throw new RuntimeException("Please supply the baseUri value");
 
         request.baseUri(baseUri);
         request.basePath("/todos");

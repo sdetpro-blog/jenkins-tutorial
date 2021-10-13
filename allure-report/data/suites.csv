@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 12 19:45:56 CDT 2021","Tue Oct 12 19:45:56 CDT 2021","54","Regression","TestNothing","test.SimpleTest","test.SimpleTest","myFirstTest","myFirstTest",""
+"passed","Tue Oct 12 19:45:57 CDT 2021","Tue Oct 12 19:46:06 CDT 2021","9813","Regression","TestNothing","test.SimpleTest","test.SimpleTest","testTodo1DataFetching","testTodo1DataFetching",""

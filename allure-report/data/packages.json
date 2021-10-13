@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.SimpleTest",
+    "children" : [ {
+      "name" : "myFirstTest",
+      "uid" : "69af2ffd60dc12d6",
+      "parentUid" : "e06efd10152abf72a88634790a8f80f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634085956774,
+        "stop" : 1634085956828,
+        "duration" : 54
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTodo1DataFetching",
+      "uid" : "e7bd27b064fd452b",
+      "parentUid" : "e06efd10152abf72a88634790a8f80f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634085957178,
+        "stop" : 1634085966991,
+        "duration" : 9813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.SimpleTest"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Tus-MacBook-Pro.attlocal.net",
+    "children" : [ {
+      "name" : "60105@Tus-MacBook-Pro.attlocal.net.main(1)",
+      "children" : [ {
+        "name" : "testTodo1DataFetching",
+        "uid" : "4e1149e5dff43c37",
+        "parentUid" : "a1b3f70aadf61925bf85e0bc4327cb3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634085834477,
+          "stop" : 1634085836399,
+          "duration" : 1922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "myFirstTest",
+        "uid" : "ad9b889984df02fb",
+        "parentUid" : "a1b3f70aadf61925bf85e0bc4327cb3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634085834023,
+          "stop" : 1634085834084,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1b3f70aadf61925bf85e0bc4327cb3d"
+    }, {
+      "name" : "60261@Tus-MacBook-Pro.attlocal.net.main(1)",
+      "children" : [ {
+        "name" : "myFirstTest",
+        "uid" : "69af2ffd60dc12d6",
+        "parentUid" : "5a95a859e70a05998ed8e9be7351c58f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634085956774,
+          "stop" : 1634085956828,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTodo1DataFetching",
+        "uid" : "e7bd27b064fd452b",
+        "parentUid" : "5a95a859e70a05998ed8e9be7351c58f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634085957178,
+          "stop" : 1634085966991,
+          "duration" : 9813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a95a859e70a05998ed8e9be7351c58f"
+    } ],
+    "uid" : "6e6262681dad6b738fb472b3cf3dad63"
+  } ],
+  "name" : "timeline"
+}
